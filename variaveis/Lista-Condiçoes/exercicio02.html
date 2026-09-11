@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa Verfica Velocidade </title>
+    <link rel = "stylesheet" herf="css/bootstrap.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <img src="imagens/exerc.jpg" alt="exerc" class="img-fluid">
+            </div>
+            <div class="col-8">
+                <h1>Programa Verfica Velocidade </h1>
+                <form id="formVelocidade">
+                    <p>Velocidade permitida: <input type="number" id="inVelPerm" min="0" required></p>
+                    <p>Velocidade do condutor: <input type="number" id="inVelCond" min="0" required></p>
+                    <input type="submit" value="Verificar Situação" class="btn btn-primary">
+                </form>
+                <p>&nbsp;</p>
+                <pre id="outResp"></pre>
+            </div>
+        </div>
+    </div>
+    <script src="js/ex002.js"></script>
+</body>
+</html>

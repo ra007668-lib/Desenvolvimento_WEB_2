@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa paquimetro</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container ">
+        <div class="row">
+            <div class="col-4">
+                <img src="imagens/exerc.jpg" alt="exerc" class="img-fluid">
+            </div>
+            <div class="col-8">
+                <h1>Programa paquimetro</h1>
+                <form id="formPaquimetro">
+                    <p>Valor Depositado R$ <input type="number" id="inValor" min="0" step="0.01" required></p>
+                    <input type="submit" value="Processar Depósito" class="btn btn-success">
+                </form>
+                <p  id="outResp1"></p>
+                <p  id="outResp2"></p>
+            </div>
+        </div>
+    </div>
+    <script src="js/ex003.js"></script>
+</body>
+</html>
